@@ -1,0 +1,12 @@
+[
+  {
+    "source": "2026.09.28/저작권판례_Advanced_RAG_단계별실험_신용민.ipynb",
+    "target": "experiment.ipynb",
+    "transform": "outputs/metadata/attachments removed; personal absolute paths replaced"
+  },
+  {
+    "source": "2026.09.30/README_저작권판례_Advanced_RAG.md",
+    "target": "historical-results.md",
+    "sha256": "1c99d3e3f89a8efed71b3e90ebceee4f4c50a4eee9f8710c64208e6158bf48a5"
+  }
+]
