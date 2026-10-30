@@ -1,0 +1,32 @@
+{
+  "python": "3.14.7",
+  "platform": "macOS ARM64",
+  "tests_passed": 19,
+  "skipped_tests": 0,
+  "standard_library_only_tests_passed": 19,
+  "source_import_read_only": true,
+  "source_records_preserved": 423,
+  "unique_case_ids": 365,
+  "course_chunks": 1862,
+  "official_question_count": 12,
+  "official_relevance_scores_computed": false,
+  "development_sanity_question_count": 5,
+  "development_sanity_independently_reviewed": false,
+  "synthetic_test_questions": 10,
+  "synthetic_relevant_questions": 7,
+  "synthetic_unanswerable_questions": 2,
+  "synthetic_unjudged_questions": 1,
+  "network_disabled_search_test_passed": true,
+  "paid_model_api_calls": 0,
+  "cloud_resources_created": false,
+  "generated_answers_evaluated": false,
+  "not_verified": [
+    "independent expert-adjudicated retrieval quality",
+    "semantic embedding parity with historical notebook",
+    "answer correctness or legal sufficiency",
+    "deployment or concurrency",
+    "Windows and Linux execution"
+  ],
+  "review_queue_source_spans_verified": 216,
+  "public_demo_search_citation_spans_verified": true
+}

@@ -1,0 +1,11 @@
+{
+  "source_records": 423,
+  "preserved_records": 423,
+  "unique_case_ids": 365,
+  "repeated_case_id_groups": 58,
+  "removed_exact_full_row_duplicates": 0,
+  "ignored_fully_empty_rows": 1047083,
+  "questions": 12,
+  "ignored_empty_question_rows": 0,
+  "official_qrels_available": false
+}

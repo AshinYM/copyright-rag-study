@@ -1,0 +1,211 @@
+{
+  "kind": "synthetic",
+  "note": "Authored fictional fixtures. No real court text or legal correctness benchmark. Config frozen; no tuning on test rows.",
+  "items": [
+    {
+      "id": "D01",
+      "question": "글꼴 프로그램 코드 구조",
+      "split": "dev",
+      "judgment": "relevant",
+      "relevant_cases": [
+        "DEMO-FONT"
+      ],
+      "evidence": [
+        {
+          "case_id": "DEMO-FONT",
+          "quote": "글꼴 프로그램의 코드 구조와 표현을 검토한 가상 기록이다. 글꼴 그림과 소프트웨어 코드는 구분해 읽는 예제다."
+        }
+      ],
+      "reviewer": "fixture-author",
+      "rationale": "직접 작성한 가상 기록의 문구를 기준으로 만든 기능 검사. 실제 법률 정답 아님."
+    },
+    {
+      "id": "D02",
+      "question": "제품 사진 촬영 구도",
+      "split": "dev",
+      "judgment": "relevant",
+      "relevant_cases": [
+        "DEMO-PHOTO"
+      ],
+      "evidence": [
+        {
+          "case_id": "DEMO-PHOTO",
+          "quote": "제품 사진의 촬영 구도 조명 배경 선택을 살펴본 가상 기록이다. 사진의 표현과 제품 자체를 구분하는 예제다."
+        }
+      ],
+      "reviewer": "fixture-author",
+      "rationale": "직접 작성한 가상 기록의 문구를 기준으로 만든 기능 검사. 실제 법률 정답 아님."
+    },
+    {
+      "id": "D03",
+      "question": "링크 제공 게시물 관계",
+      "split": "dev",
+      "judgment": "relevant",
+      "relevant_cases": [
+        "DEMO-LINK"
+      ],
+      "evidence": [
+        {
+          "case_id": "DEMO-LINK",
+          "quote": "인터넷 링크 제공과 연결 대상 게시물의 관계를 살펴본 가상 기록이다. 직접 게시와 링크 제공을 구분하는 예제다."
+        }
+      ],
+      "reviewer": "fixture-author",
+      "rationale": "직접 작성한 가상 기록의 문구를 기준으로 만든 기능 검사. 실제 법률 정답 아님."
+    },
+    {
+      "id": "T01",
+      "question": "소프트웨어 코드와 글꼴 그림 표현",
+      "split": "test",
+      "judgment": "relevant",
+      "relevant_cases": [
+        "DEMO-FONT"
+      ],
+      "evidence": [
+        {
+          "case_id": "DEMO-FONT",
+          "quote": "글꼴 프로그램의 코드 구조와 표현을 검토한 가상 기록이다. 글꼴 그림과 소프트웨어 코드는 구분해 읽는 예제다."
+        }
+      ],
+      "reviewer": "fixture-author",
+      "rationale": "직접 작성한 가상 기록의 문구를 기준으로 만든 기능 검사. 실제 법률 정답 아님."
+    },
+    {
+      "id": "T02",
+      "question": "사진 조명 배경 선택",
+      "split": "test",
+      "judgment": "relevant",
+      "relevant_cases": [
+        "DEMO-PHOTO"
+      ],
+      "evidence": [
+        {
+          "case_id": "DEMO-PHOTO",
+          "quote": "제품 사진의 촬영 구도 조명 배경 선택을 살펴본 가상 기록이다. 사진의 표현과 제품 자체를 구분하는 예제다."
+        }
+      ],
+      "reviewer": "fixture-author",
+      "rationale": "직접 작성한 가상 기록의 문구를 기준으로 만든 기능 검사. 실제 법률 정답 아님."
+    },
+    {
+      "id": "T03",
+      "question": "온라인 게임 규칙과 화면 구성",
+      "split": "test",
+      "judgment": "relevant",
+      "relevant_cases": [
+        "DEMO-GAME"
+      ],
+      "evidence": [
+        {
+          "case_id": "DEMO-GAME",
+          "quote": "온라인 게임의 규칙과 창작적 표현을 구분하는 가상 기록이다. 게임 화면의 구체적인 구성과 전개 요소를 비교하는 예제다."
+        }
+      ],
+      "reviewer": "fixture-author",
+      "rationale": "직접 작성한 가상 기록의 문구를 기준으로 만든 기능 검사. 실제 법률 정답 아님."
+    },
+    {
+      "id": "T04",
+      "question": "저작물 수정 동의 범위",
+      "split": "test",
+      "judgment": "relevant",
+      "relevant_cases": [
+        "DEMO-REVISION"
+      ],
+      "evidence": [
+        {
+          "case_id": "DEMO-REVISION",
+          "quote": "저작물 수정에 대한 동의 범위와 저작인격권을 살펴본 가상 기록이다. 허락한 변경과 범위를 벗어난 변경을 구분하는 예제다."
+        }
+      ],
+      "reviewer": "fixture-author",
+      "rationale": "직접 작성한 가상 기록의 문구를 기준으로 만든 기능 검사. 실제 법률 정답 아님."
+    },
+    {
+      "id": "T05",
+      "question": "인터넷 링크 직접 게시",
+      "split": "test",
+      "judgment": "relevant",
+      "relevant_cases": [
+        "DEMO-LINK"
+      ],
+      "evidence": [
+        {
+          "case_id": "DEMO-LINK",
+          "quote": "인터넷 링크 제공과 연결 대상 게시물의 관계를 살펴본 가상 기록이다. 직접 게시와 링크 제공을 구분하는 예제다."
+        }
+      ],
+      "reviewer": "fixture-author",
+      "rationale": "직접 작성한 가상 기록의 문구를 기준으로 만든 기능 검사. 실제 법률 정답 아님."
+    },
+    {
+      "id": "T06",
+      "question": "신문 기사 사실 전달 기자 표현",
+      "split": "test",
+      "judgment": "relevant",
+      "relevant_cases": [
+        "DEMO-NEWS"
+      ],
+      "evidence": [
+        {
+          "case_id": "DEMO-NEWS",
+          "quote": "신문 기사의 사실 전달과 기자의 표현을 살펴본 가상 기록이다. 보도 내용과 구체적인 문장 표현을 비교하는 예제다."
+        }
+      ],
+      "reviewer": "fixture-author",
+      "rationale": "직접 작성한 가상 기록의 문구를 기준으로 만든 기능 검사. 실제 법률 정답 아님."
+    },
+    {
+      "id": "T07",
+      "question": "글꼴 프로그램과 온라인 게임 표현 비교",
+      "split": "test",
+      "judgment": "relevant",
+      "relevant_cases": [
+        "DEMO-FONT",
+        "DEMO-GAME"
+      ],
+      "evidence": [
+        {
+          "case_id": "DEMO-FONT",
+          "quote": "글꼴 프로그램의 코드 구조와 표현을 검토한 가상 기록이다. 글꼴 그림과 소프트웨어 코드는 구분해 읽는 예제다."
+        },
+        {
+          "case_id": "DEMO-GAME",
+          "quote": "온라인 게임의 규칙과 창작적 표현을 구분하는 가상 기록이다. 게임 화면의 구체적인 구성과 전개 요소를 비교하는 예제다."
+        }
+      ],
+      "reviewer": "fixture-author",
+      "rationale": "직접 작성한 가상 기록의 문구를 기준으로 만든 기능 검사. 실제 법률 정답 아님."
+    },
+    {
+      "id": "T08",
+      "question": "xylophonic quasar zyxwv",
+      "split": "test",
+      "judgment": "unanswerable",
+      "relevant_cases": [],
+      "evidence": [],
+      "reviewer": "fixture-author",
+      "rationale": "직접 작성한 가상 기록의 문구를 기준으로 만든 기능 검사. 실제 법률 정답 아님."
+    },
+    {
+      "id": "T09",
+      "question": "게임 속 내일 날씨 예보",
+      "split": "test",
+      "judgment": "unanswerable",
+      "relevant_cases": [],
+      "evidence": [],
+      "reviewer": "fixture-author",
+      "rationale": "직접 작성한 가상 기록의 문구를 기준으로 만든 기능 검사. 실제 법률 정답 아님."
+    },
+    {
+      "id": "T10",
+      "question": "저작권 등록의 처리 기간",
+      "split": "test",
+      "judgment": "unjudged",
+      "relevant_cases": [],
+      "evidence": [],
+      "reviewer": "",
+      "rationale": ""
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "dataset_kind": "synthetic",
+  "split": "test",
+  "k": 3,
+  "corpus_cases": 8,
+  "corpus_records": 8,
+  "chunks": 9,
+  "config": {
+    "chunk_size": 1000,
+    "chunk_overlap": 150,
+    "candidate_window": 50,
+    "bm25_k1": 1.5,
+    "bm25_b": 0.75,
+    "rrf_constant": 60,
+    "mmr_lambda": 0.7,
+    "char_ngram": 2,
+    "semantic_embeddings": false
+  },
+  "quality_scope": "synthetic_fixture_only",
+  "semantic_or_answer_quality_measured": false,
+  "default_method_preselected": "rrf_case_unique",
+  "automatic_winner_selection": false,
+  "methods": [
+    {
+      "method": "bm25_body",
+      "total_questions": 10,
+      "relevance_scored_questions": 7,
+      "unanswerable_questions": 2,
+      "unjudged_questions_excluded_from_quality_scores": 1,
+      "relevance_metrics": {
+        "hit_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "precision_at_k": 0.38095238095238093,
+        "mrr_at_k": 1.0,
+        "ndcg_at_k": 1.0
+      },
+      "avg_unique_cases": 1,
+      "avg_duplicate_rate": 0.08333333333333334,
+      "empty_result_rate": 0.1,
+      "unanswerable_with_any_result_rate": 0.5,
+      "evidence_quote_coverage_at_k": 1.0
+    },
+    {
+      "method": "bm25_metadata",
+      "total_questions": 10,
+      "relevance_scored_questions": 7,
+      "unanswerable_questions": 2,
+      "unjudged_questions_excluded_from_quality_scores": 1,
+      "relevance_metrics": {
+        "hit_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "precision_at_k": 0.38095238095238093,
+        "mrr_at_k": 1.0,
+        "ndcg_at_k": 1.0
+      },
+      "avg_unique_cases": 1.2,
+      "avg_duplicate_rate": 0.06666666666666668,
+      "empty_result_rate": 0.1,
+      "unanswerable_with_any_result_rate": 0.5,
+      "evidence_quote_coverage_at_k": 1.0
+    },
+    {
+      "method": "char_tfidf",
+      "total_questions": 10,
+      "relevance_scored_questions": 7,
+      "unanswerable_questions": 2,
+      "unjudged_questions_excluded_from_quality_scores": 1,
+      "relevance_metrics": {
+        "hit_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "precision_at_k": 0.38095238095238093,
+        "mrr_at_k": 1.0,
+        "ndcg_at_k": 1.0
+      },
+      "avg_unique_cases": 1.8,
+      "avg_duplicate_rate": 0.06666666666666668,
+      "empty_result_rate": 0,
+      "unanswerable_with_any_result_rate": 1,
+      "evidence_quote_coverage_at_k": 1.0
+    },
+    {
+      "method": "rrf",
+      "total_questions": 10,
+      "relevance_scored_questions": 7,
+      "unanswerable_questions": 2,
+      "unjudged_questions_excluded_from_quality_scores": 1,
+      "relevance_metrics": {
+        "hit_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "precision_at_k": 0.38095238095238093,
+        "mrr_at_k": 1.0,
+        "ndcg_at_k": 1.0
+      },
+      "avg_unique_cases": 1.8,
+      "avg_duplicate_rate": 0.06666666666666668,
+      "empty_result_rate": 0,
+      "unanswerable_with_any_result_rate": 1,
+      "evidence_quote_coverage_at_k": 1.0
+    },
+    {
+      "method": "rrf_case_unique",
+      "total_questions": 10,
+      "relevance_scored_questions": 7,
+      "unanswerable_questions": 2,
+      "unjudged_questions_excluded_from_quality_scores": 1,
+      "relevance_metrics": {
+        "hit_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "precision_at_k": 0.38095238095238093,
+        "mrr_at_k": 1.0,
+        "ndcg_at_k": 1.0
+      },
+      "avg_unique_cases": 2,
+      "avg_duplicate_rate": 0.0,
+      "empty_result_rate": 0,
+      "unanswerable_with_any_result_rate": 1,
+      "evidence_quote_coverage_at_k": 1.0
+    },
+    {
+      "method": "rrf_mmr_case_unique",
+      "total_questions": 10,
+      "relevance_scored_questions": 7,
+      "unanswerable_questions": 2,
+      "unjudged_questions_excluded_from_quality_scores": 1,
+      "relevance_metrics": {
+        "hit_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "precision_at_k": 0.38095238095238093,
+        "mrr_at_k": 1.0,
+        "ndcg_at_k": 1.0
+      },
+      "avg_unique_cases": 2,
+      "avg_duplicate_rate": 0.0,
+      "empty_result_rate": 0,
+      "unanswerable_with_any_result_rate": 1,
+      "evidence_quote_coverage_at_k": 1.0
+    }
+  ],
+  "mrr_changes_vs_body_bm25": []
+}
